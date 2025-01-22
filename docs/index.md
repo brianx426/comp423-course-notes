@@ -1,6 +1,6 @@
 # Welcome to Brian's Course Notes
 
-This is my home page. I will use it to organize and share my course notes.\n
+This is my home page. I will use it to organize and share my course notes.
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
