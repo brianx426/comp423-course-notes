@@ -16,3 +16,6 @@
 ### Step 1. Create a Repository
 1. Open Terminal/Command Prompt
 2. Run the following the commands<br>
+
+!!! note "Important"
+    this is an admonition
