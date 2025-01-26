@@ -146,7 +146,7 @@ There are two ways to run your program.
 
 1. Run `cargo run` in the terminal to print "Hello COMP423"
 
-## Once you see that "Hello COMP423 has been printed in the terminal, you've finished this tutorial
+## Once you see that "Hello COMP423" has been printed in the terminal, you've finished this tutorial
 
 To save your work, be sure to run the following in the terminal: 
 ```
