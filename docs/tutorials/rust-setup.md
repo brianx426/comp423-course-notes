@@ -120,3 +120,50 @@ cd hello-comp423
     Recall towards the beginning of this tutorial. We did something similar! The commands we just ran created a new directory called `hello-comp423` without initializing a VCS and made our current working directory `hello-comp423`
 
 (B) Navigate to the `src/main.rs` file and open it.
+(C) Modify the main function to print "Hello COMP423" instead of "Hello, World!". The result should look like this:
+
+```rust
+fn main() {
+  println!("Hello COMP423");
+}
+```
+
+### Step 2. Running your program
+
+There are two ways to run your program.
+
+* The first way involves using `cargo build`. `cargo build` will compile your rust program and proide you with an executable file for you to run yourself. Think of this as using `gcc` to compile a C program. Both methods compile your program, but you have to manually run the executable file. 
+
+* The second way uses `cargo run`. This command compiles and executes your program all in one step. 
+
+#### To run your program using `cargo build`, do the following:
+
+1. In the terminal, run `cargo build`. You should see that a new directory called `target`, along with these files: `Cargo.lock` and `Cargo.toml`
+
+2. Run `./target/debug/hello-comp423` to print "Hello COMP423" in the terminal.
+
+#### To run your program using `cargo run`, do the following:
+
+1. Run `cargo run` in the terminal to print "Hello COMP423"
+
+## Once you see that "Hello COMP423 has been printed in the terminal, you've finished this tutorial
+
+To save your work, be sure to run the following in the terminal: 
+```
+git add .
+git commit -m "followed Rust tutorial and printed Hello COMP423"
+git push -u origin main
+``` 
+!!! question "What does `.` mean?"
+    `.` refers to the current workiing directory the terminal's shell process is in.
+
+# Congratulations! You have reached the end of this tutorial. 
+
+## You have successfully done the following:
+
+* Create a Rust project using the terminal and VS Code
+* Set up a dev container for Rust
+* Configured your development environment
+* Run a Rust program
+
+Many thanks to Kris Jordan's [Starting a Static Website Project with MkDocs](https://comp423-25s.github.io/resources/MkDocs/tutorial/) as most of this tutorial was inspired by it!
