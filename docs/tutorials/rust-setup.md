@@ -92,7 +92,7 @@ The `devcontainer.json` file defines the configuration for your development envi
   "image": "mcr.microsoft.com/devcontainers/rust:latest",
   "customizations": {
     "vscode": {
-      "settings: {},
+      "settings": {},
       "extensions": ["rust-lang.rust-analyzer"]
     }
   },
