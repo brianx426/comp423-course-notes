@@ -50,7 +50,7 @@
 (A) Add the GitHub repository as a remote:
 
 ```bash
-git remode add origin https://github.com/<your-username>/rust-project.git
+git remote add origin https://github.com/<your-username>/rust-project.git
 ```
 
 Replace `<your-username>` with your GitHub username.
