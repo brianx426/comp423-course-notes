@@ -105,6 +105,11 @@ The `devcontainer.json` file defines the configuration for your development envi
 2. Type and Select the option: "Dev Containers: Reopen in Container"
 3. Wait until the image is downloaded
 4. Once the image downloads, you can move on to creating the project!
+5. In the terminal run `rustc --version`. You should see something along the lines of:
+
+```bash
+rustc 1.83.0 (90b35a623 2024-11-26)
+```
 
 ## Creating the Project
 You made it! We are in the home stretch of this tutorial now! Just a few more steps to go!
